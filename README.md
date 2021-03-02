@@ -593,7 +593,7 @@ handleChange(val) {
   this.setState({ userInput: val });
 }
 ```
-
+ENDED HERE
 Now that our `input` functionality is finished, all that's left is getting our `button` to execute a method that solves the toy problem. In React we can execute a function on a button click by using the attribute `onClick`. Since we want to execute this method with an argument we'll nest it in an arrow function.
 
 ```js
